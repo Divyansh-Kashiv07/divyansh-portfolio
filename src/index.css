@@ -2,29 +2,25 @@
 @import "tw-animate-css";
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
 
-@layer base {
-  :root {
-    --primary: #00d9ff;
-    --primary-foreground: #0a0e27;
-    --background: #0a0e27;
-    --foreground: #e0e7ff;
-    --card: rgba(30, 41, 82, 0.4);
-    --card-foreground: #e0e7ff;
-    --accent: #d946ef;
-    --accent-foreground: #0a0e27;
-    --border: rgba(100, 116, 139, 0.2);
-    --input: rgba(30, 41, 82, 0.6);
-    --ring: #00d9ff;
-  }
+@theme {
+  --color-background: #0a0e27;
+  --color-foreground: #e0e7ff;
+  --color-primary: #00d9ff;
+  --color-primary-foreground: #0a0e27;
+  --color-accent: #d946ef;
+  --color-accent-foreground: #0a0e27;
+  --color-border: rgb(100 116 139 / 0.2);
+  --color-card: rgb(30 41 82 / 0.4);
+  --color-card-foreground: #e0e7ff;
+}
 
+@layer base {
   * {
-    border-color: var(--border);
-    outline-color: var(--ring);
+    border-color: var(--color-border);
   }
 
   body {
-    background-color: var(--background);
-    color: var(--foreground);
+    @apply bg-background text-foreground;
     font-family: "Inter", sans-serif;
   }
 
@@ -52,28 +48,29 @@
 
 @layer components {
   .glass {
-    background: rgba(30, 41, 82, 0.4);
+    @apply bg-opacity-40 backdrop-blur-md border border-cyan-500/20 rounded-lg;
+    background: rgb(30 41 82 / 0.4);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(100, 116, 139, 0.2);
+    border: 1px solid rgb(100 116 139 / 0.2);
     border-radius: 0.65rem;
   }
 
   .neon-glow-cyan {
-    box-shadow: 0 0 20px rgba(0, 217, 255, 0.3), inset 0 0 20px rgba(0, 217, 255, 0.1);
+    box-shadow: 0 0 20px rgb(0 217 255 / 0.3), inset 0 0 20px rgb(0 217 255 / 0.1);
   }
 
   .neon-glow-purple {
-    box-shadow: 0 0 20px rgba(217, 70, 239, 0.3), inset 0 0 20px rgba(217, 70, 239, 0.1);
+    box-shadow: 0 0 20px rgb(217 70 239 / 0.3), inset 0 0 20px rgb(217 70 239 / 0.1);
   }
 
   .neon-text-cyan {
     color: #00d9ff;
-    text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+    text-shadow: 0 0 10px rgb(0 217 255 / 0.5);
   }
 
   .neon-text-purple {
     color: #d946ef;
-    text-shadow: 0 0 10px rgba(217, 70, 239, 0.5);
+    text-shadow: 0 0 10px rgb(217 70 239 / 0.5);
   }
 
   .container {
@@ -117,10 +114,10 @@
 
 @keyframes glow-pulse {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+    box-shadow: 0 0 20px rgb(0 217 255 / 0.3);
   }
   50% {
-    box-shadow: 0 0 40px rgba(0, 217, 255, 0.6);
+    box-shadow: 0 0 40px rgb(0 217 255 / 0.6);
   }
 }
 

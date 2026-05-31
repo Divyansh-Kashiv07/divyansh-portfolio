@@ -12,5 +12,14 @@ export default defineConfig({
   },
   build: {
     outDir: "dist"
+  },
+  server: {
+    host: true,
+    allowedHosts: [
+      ".manus.computer",
+      ".manus-asia.computer",
+      "localhost",
+      "127.0.0.1"
+    ]
   }
 })
