@@ -73,7 +73,7 @@ export const ContactSection: React.FC = () => {
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           Let's <span className="text-cyan-400">Connect</span>
         </h2>
-        <p className="text-center text-gray-400 mb-16 max-w-2xl mx-auto">
+        <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">
           Have a project in mind or want to collaborate? Feel free to reach out. I'm always excited to discuss new ideas and opportunities.
         </p>
 
@@ -107,15 +107,15 @@ export const ContactSection: React.FC = () => {
                     <p className={`text-sm font-semibold ${isNeon ? 'text-cyan-300' : 'text-purple-300'}`}>
                       {info.label}
                     </p>
-                    <p className="text-gray-300 font-medium">{info.value}</p>
+                    <p className="text-gray-200 font-medium">{info.value}</p>
                   </div>
                 </a>
               );
             })}
 
             {/* Social links */}
-            <div className="mt-8 pt-8 border-t border-gray-700">
-              <p className="text-sm text-gray-400 mb-4">Connect with me on social platforms</p>
+            <div className="mt-8 pt-8 border-t border-gray-600">
+              <p className="text-sm text-gray-300 mb-4">Connect with me on social platforms</p>
               <div className="flex gap-3">
                 <a
                   href="https://github.com"
