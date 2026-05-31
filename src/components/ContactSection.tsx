@@ -43,8 +43,8 @@ export const ContactSection: React.FC = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 7307208636',
-      href: 'tel:+917307208636',
+      value: '+91 9532897558',
+      href: 'tel:+919532897558',
       color: 'cyan',
     },
     {

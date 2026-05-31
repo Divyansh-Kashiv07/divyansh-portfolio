@@ -43,7 +43,7 @@ export const AboutSection: React.FC = () => {
           <div className="glass p-8 rounded-xl neon-glow-cyan">
             <h3 className="text-2xl font-bold text-cyan-300 mb-4">B.Tech IT Student</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              I'm a first-year B.Tech Information Technology student at Noida Institute of Engineering & Technology (NIET), Greater Noida. With a strong passion for technology and innovation, I'm dedicated to building real-world solutions that make a difference.
+              I'm a second-year B.Tech Information Technology student at Noida Institute of Engineering & Technology (NIET), Greater Noida. With a strong passion for technology and innovation, I'm dedicated to building real-world solutions that make a difference.
             </p>
             <p className="text-gray-400 leading-relaxed">
               My journey in tech started with a curiosity about how things work. Today, I combine my academic foundation with practical experience to create meaningful digital experiences.

@@ -51,7 +51,7 @@ export const EducationSection: React.FC = () => {
                   </div>
                   <div className="flex items-center gap-2 text-gray-300">
                     <Calendar className="w-4 h-4 text-purple-400" />
-                    <span>2025 – Present (First Year)</span>
+                    <span>2025 – Present (Second Year)</span>
                   </div>
                 </div>
 
