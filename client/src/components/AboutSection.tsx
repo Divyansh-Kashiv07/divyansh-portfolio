@@ -42,10 +42,10 @@ export const AboutSection: React.FC = () => {
           {/* Profile Info */}
           <div className="glass p-8 rounded-xl neon-glow-cyan">
             <h3 className="text-2xl font-bold text-cyan-300 mb-4">B.Tech IT Student</h3>
-            <p className="text-gray-200 mb-4 leading-relaxed">
-              I'm a second-year B.Tech Information Technology student at Noida Institute of Engineering & Technology (NIET), Greater Noida. With a strong passion for technology and innovation, I'm dedicated to building real-world solutions that make a difference.
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              I'm a first-year B.Tech Information Technology student at Noida Institute of Engineering & Technology (NIET), Greater Noida. With a strong passion for technology and innovation, I'm dedicated to building real-world solutions that make a difference.
             </p>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-400 leading-relaxed">
               My journey in tech started with a curiosity about how things work. Today, I combine my academic foundation with practical experience to create meaningful digital experiences.
             </p>
           </div>
@@ -56,19 +56,19 @@ export const AboutSection: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 font-bold mt-1">→</span>
-                <span className="text-gray-200">
+                <span className="text-gray-300">
                   <strong>Programming:</strong> C, C++, Java with strong DSA fundamentals
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-purple-400 font-bold mt-1">→</span>
-                <span className="text-gray-200">
+                <span className="text-gray-300">
                   <strong>Web Development:</strong> HTML, CSS, JavaScript, React, Tailwind CSS
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 font-bold mt-1">→</span>
-                <span className="text-gray-200">
+                <span className="text-gray-300">
                   <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Prompt Engineering
                 </span>
               </li>
@@ -96,7 +96,7 @@ export const AboutSection: React.FC = () => {
                 <h4 className={`text-lg font-bold mb-2 ${isNeon ? 'text-cyan-300' : 'text-purple-300'}`}>
                   {strength.title}
                 </h4>
-                <p className="text-gray-200 text-sm leading-relaxed">
+                <p className="text-gray-400 text-sm leading-relaxed">
                   {strength.description}
                 </p>
               </div>

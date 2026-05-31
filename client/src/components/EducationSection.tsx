@@ -41,21 +41,21 @@ export const EducationSection: React.FC = () => {
                 </p>
 
                 <div className="space-y-2 mb-4">
-                  <div className="flex items-center gap-2 text-gray-200">
+                  <div className="flex items-center gap-2 text-gray-300">
                     <MapPin className="w-4 h-4 text-cyan-400" />
                     <span>Noida Institute of Engineering & Technology (NIET)</span>
                   </div>
-                  <div className="flex items-center gap-2 text-gray-200">
+                  <div className="flex items-center gap-2 text-gray-300">
                     <MapPin className="w-4 h-4 text-cyan-400" />
                     <span>Greater Noida, Uttar Pradesh, India</span>
                   </div>
-                  <div className="flex items-center gap-2 text-gray-200">
+                  <div className="flex items-center gap-2 text-gray-300">
                     <Calendar className="w-4 h-4 text-purple-400" />
-                    <span>2025 – Present (Second Year)</span>
+                    <span>2025 – Present (First Year)</span>
                   </div>
                 </div>
 
-                <p className="text-gray-200 leading-relaxed">
+                <p className="text-gray-400 leading-relaxed">
                   Pursuing a comprehensive IT education with focus on software development, data structures, algorithms, and emerging technologies. Actively participating in academic projects and building practical skills through hands-on learning.
                 </p>
               </div>
@@ -66,7 +66,7 @@ export const EducationSection: React.FC = () => {
         {/* Academic highlights */}
         <div className="mt-16 glass p-8 rounded-xl border border-purple-500/30">
           <h3 className="text-xl font-bold text-purple-300 mb-4">Academic Focus</h3>
-          <ul className="space-y-2 text-gray-200">
+          <ul className="space-y-2 text-gray-300">
             <li className="flex items-start gap-2">
               <span className="text-cyan-400 font-bold mt-1">•</span>
               <span>Core CS Concepts: Data Structures, Algorithms, Database Management</span>

@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
               <Code2 className="w-5 h-5 text-cyan-400" />
               <span className="font-bold text-lg text-cyan-400">Divyansh Kashiv</span>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-400 text-sm leading-relaxed">
               B.Tech IT student at NIET, passionate about building innovative tech solutions and exploring new technologies.
             </p>
           </div>
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
                 <li key={index}>
                   <a
                     href={`#${link.toLowerCase()}`}
-                    className="text-gray-300 hover:text-cyan-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
                   >
                     {link}
                   </a>
@@ -72,15 +72,15 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-600 my-8" />
+        <div className="border-t border-gray-700 my-8" />
 
         {/* Copyright */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-gray-300 text-sm flex items-center gap-1">
+          <p className="text-gray-400 text-sm flex items-center gap-1">
             © {currentYear} Divyansh Kashiv. Made with{' '}
             <Heart className="w-4 h-4 text-purple-400 fill-purple-400" /> and code.
           </p>
-          <p className="text-gray-400 text-xs">
+          <p className="text-gray-500 text-xs">
             Designed & Built with React, Three.js, and Tailwind CSS
           </p>
         </div>
